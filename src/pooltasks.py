@@ -40,7 +40,6 @@ if __name__ == "__main__":
     NRUNS = 30
     Dseeds = np.random.randint(1,999999, size=(2 * NRUNS))
     Dseeds = np.unique(Dseeds)[:NRUNS]
-    print(Dseeds)
 
     REG = False
     all_args = [get_args(int(ts),

@@ -249,7 +249,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--layer_sizes", default="2,25,1", type=str,
+    parser.add_argument("--layer_sizes", default="2,100,1", type=str,
                         help="layer sizes for the MLP, the final is the number of bins")
 
     parser.add_argument("--lr", type=float,
@@ -257,22 +257,22 @@ if __name__ == "__main__":
                         help="learning rate (default 0.1).")
 
     parser.add_argument("--bs", type=int,
-                        default=128,
+                        default=250,
                         help="batch size (default 128)")
 
     parser.add_argument("--nbs", type=int,
-                        default=5,
+                        default=1,
                         help="no of batches for finite train dataset")
 
     parser.add_argument("--dC", type=int,
-                        default=25,
+                        default=50,
                         help="number of classes to balance data into (default 25)")
 
     parser.add_argument('--ne', type=int,
-                        default=90, help="number of evaluation data points")
+                        default=250, help="number of evaluation data points")
 
     parser.add_argument("--max_epochs", type=int,
-                        default=10000,
+                        default=50000,
                         help="Maximum number of epochs to train over dataset. \
                         If tolerance is reached then will end")
 
