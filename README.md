@@ -1,15 +1,22 @@
 ## Regression as Classification: Influence of Task Formulation on Neural Network Features
 
-#### Paper:
-https://arxiv.org/abs/2211.05641
-Regression as Classification: Influence of Task Formulation on Neural Network Features  
+#### Code for the Paper:
+
+**Regression as Classification: Influence of Task Formulation on Neural Network Features**
+
+Proceedings of the 26th International Conference on Artificial
+Intelligence and Statistics (AISTATS) 2023, Valencia, Spain.
+PMLR: Volume 206. Copyright 2023 by the author(s)
+
+[Link to paper on ArXiV](https://arxiv.org/abs/2211.05641A)
 
 #### Authors:
-Lawrence Stewart (Ecole Normale Superieure), Francis Bach (Ecole Normale Superieure), Quentin Berthet (Google Brain), Jean-Philippe Vert (Google Brain).
+Lawrence Stewart (Ecole Normale Superieure and INRIA), Francis Bach (Ecole Normale Superieure and INRIA), Quentin Berthet (Google Brain), Jean-Philippe Vert (Google Brain).
 
 #### Licence:
+This code is distributed under a BSD-3 Liscence.
 
-#### Brief Outline:
+#### Contents:
 
 - `requirements.txt`: Lists all dependencies.
 - `reparamfeats.py`: Creates Figure 2 from the paper.
