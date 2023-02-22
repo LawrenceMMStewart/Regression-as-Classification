@@ -14,7 +14,7 @@ PMLR: Volume 206. Copyright 2023 by the author(s)
 Lawrence Stewart (Ecole Normale Superieure and INRIA), Francis Bach (Ecole Normale Superieure and INRIA), Quentin Berthet (Google Brain), Jean-Philippe Vert (Google Brain).
 
 #### Licence:
-This code is distributed under a BSD-3 Liscence.
+This code is distributed under a BSD-3 Licence.
 
 #### Contents:
 
